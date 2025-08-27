@@ -1,0 +1,44 @@
+/* NavBar */
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    padding: 0 3vw;
+    border-bottom: 1px solid var(--app-black);
+    font-family: 'Inter';
+    font-weight: 800;
+}
+
+.nav-keepit-logo{
+    font-size: 2vh;
+    text-decoration: none;
+    color: var(--app-black);
+}
+
+.nav-buttons{
+    display: flex;
+    align-items: center;
+}
+
+.nav-link-button{
+    text-decoration: none;
+    margin-right: 5vw;
+    padding: 0.5vh 2vw;
+    color: var(--app-black);
+}
+
+.nav-link-button:first-child{
+    color: var(--app-white);
+    background-color: var(--app-black);
+    border-radius: 40px;
+}
+
+.user-img{
+    background-color: var(--app-orange);
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}

@@ -1,0 +1,138 @@
+.home{
+    font-family: 'Inter';
+    font-weight: 800;
+}
+
+/* Hero Image */
+
+.hero-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 45vh;
+    background: linear-gradient(90deg, var(--app-orange), var(--app-violet));
+    padding: 0 3vw;
+}
+
+.hero-placeholder-text{
+    font-size: 3vh;
+    width: 16%;
+    text-align: left;
+}
+
+.hero-placeholder-button{
+    width: fit-content;
+    color: var(--app-white);
+    background-color: var(--app-black);
+    border-radius: 40px;
+    padding: 0.5vh 1.5vw;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+    text-decoration: none;
+}
+
+/* Main Container */
+
+.main-container{
+    display: flex;
+    justify-content: flex-start;
+    padding: 3vh 3vw;
+}
+
+.listado-accesos{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+.listado-accesos-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.acceso{
+    display: flex;
+    width: 16vw;
+    height: 5vh;
+    background-color: #3a2cff;
+    color: #ffffff;
+    align-items: center;
+    margin: 5px 0;
+    border-radius: 15px;
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+.acceso-icono{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.acceso-icono span{
+    font-size: 3vh;
+}
+
+.acceso-descripcion{
+    font-size: 2vh;
+}
+
+.proximos-vencimientos{
+
+}
+
+.titulo-forma{
+    width: 6px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.proximos-vencimientos-placeholder .titulo-forma{
+    background-color: #ff8d6b;
+}
+
+.listado-accesos-placeholder .titulo-forma{
+    background-color: #3a2cff;
+}
+
+.proximos-vencimientos-placeholder, .listado-accesos-placeholder{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2vh;
+}
+
+.listado-accesos-texto, .proximos-vecimientos-texto{
+    margin-left: 10px;
+    font-size: 2vh;
+}
+
+.proximos-vencimientos-container{
+    
+}
+
+.documento-vencer{
+    display: flex;
+    width: 30vw;
+    height: 4.2vh;
+    margin: 1vh 0px;
+    background-color: #d3d3d3;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.documento-vencer-forma{
+    position: absolute;
+    width: 1vw;
+    height: inherit;
+    background-color: #ff8d6b;
+    border-radius: 15px;
+}
+
+.documento-vencer-nombre{
+    margin-left: 2vw;
+}
+
+.documento-vencer-fecha{
+    margin-right: 2vw;
+}
